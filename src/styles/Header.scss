@@ -1,0 +1,22 @@
+.header {
+  border: 1px solid $half-purple;
+  border-radius: $radius-five;
+  background: $half-purple;
+  .header-logo {
+    h1 {
+      color: $half-purple;
+      font-size: 1.5rem;
+      background: white;
+      width: 180px;
+      border-radius: $radius-five;
+      padding: 0.5rem;
+      span {
+        color: $dark-purple;
+        font-size: 1.5rem;
+        &:not(:last-child) {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}

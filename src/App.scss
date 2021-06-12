@@ -1,0 +1,35 @@
+$dark-purple: #330661;
+$half-purple: #920d5f;
+$radius-five: 5px;
+
+@import './styles/Container.scss';
+@import './styles/Header.scss';
+@import './styles/ShoppingBasket.scss';
+@import './styles/Products.scss';
+@import './styles/Statistics.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1a0331;
+}
+.products-title {
+  margin-bottom: 1rem;
+  background: $half-purple;
+  border-radius: inherit;
+  padding: 0.5rem;
+  h2 {
+    color: white;
+  }
+}
+
+.product-list__container {
+  border: 2px solid $half-purple;
+  border-radius: $radius-five;
+  width: 350px;
+  padding: 0.5rem;
+}

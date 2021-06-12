@@ -1,0 +1,32 @@
+.product_container {
+  display: flex;
+  justify-content: space-between;
+  width: 310px;
+  border: 1px solid rgba(0, 0, 0, 0.199);
+  margin: 0.3rem 0;
+  padding: 0.5rem;
+
+  .product_container-infos {
+    width: 180px;
+
+    p {
+      margin: 1rem 0;
+      font-weight: bold;
+    }
+
+    button {
+      border: none;
+      background: $dark-purple;
+      padding: 0.5rem;
+      border-radius: $radius-five;
+      color: white;
+      cursor: pointer;
+      text-transform: uppercase;
+      font-weight: bold;
+      transition: all ease-in-out 0.2s;
+      &:hover {
+        background: $half-purple;
+      }
+    }
+  }
+}

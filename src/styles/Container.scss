@@ -1,0 +1,13 @@
+.view-container {
+  width: 1000px;
+  min-height: 900px;
+  background: white;
+  border-radius: 5px;
+  margin: 2% auto;
+  padding: 1rem;
+}
+.view-container__list-and-basket {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
