@@ -20,7 +20,7 @@ const reducer = (state, action) => {
       );
       let newBasket = [...state.basket];
       if (index >= 0) {
-        newBasket.splice(index, 1); // começe do index e remove 1 item. Ou seja, apenas o index será removido.
+        newBasket.splice(index, 1); // comece do index e remove 1 item. Ou seja, apenas o index será removido.
       }
       return {
         ...state,
